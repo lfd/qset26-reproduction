@@ -1,0 +1,100 @@
+[submodule "cuda-quantum"]
+	path = projects/cuda-quantum
+	url = https://github.com/NVIDIA/cuda-quantum.git
+	branch = main
+[submodule "catalyst"]
+	path = projects/catalyst
+	url = https://github.com/PennyLaneAI/catalyst.git
+	branch = main
+[submodule "qe-compiler"]
+	path = projects/qe-compiler
+	url = https://github.com/openqasm/qe-compiler.git
+	branch = main
+[submodule "qwerty"]
+	path = projects/qwerty
+	url = https://github.com/gt-tinker/qwerty.git
+	branch = main
+[submodule "mqt-core"]
+	path = projects/mqt-core
+	url = https://github.com/munich-quantum-toolkit/core.git
+	branch = main
+[submodule "qcor"]
+	path = projects/qcor
+	url = https://github.com/qir-alliance/qcor.git
+	branch = master
+[submodule "qiro"]
+	path = projects/qiro
+	url = https://github.com/dime10/QIRO.git
+	branch = master
+[submodule "xacc"]
+	path = projects/xacc
+	url = https://github.com/eclipse-xacc/xacc.git
+	branch = master
+[submodule "qllvm"]
+	path = projects/qllvm
+	url = https://github.com/QCFlow/QLLVM.git
+	branch = master
+[submodule "tket2"]
+	path = projects/tket2
+	url = https://github.com/Quantinuum/tket2.git
+	branch = main
+[submodule "projects/qssa"]
+	path = projects/qssa
+	url = git@github.com:opencompl/QMLIR.git
+[submodule "projects/qat"]
+	path = projects/qat
+	url = git@github.com:qir-alliance/qat.git
+[submodule "projects/openql"]
+	path = projects/openql
+	url = git@github.com:QuTech-Delft/OpenQL.git
+[submodule "projects/jeffmlir"]
+	path = projects/jeffmlir
+	url = git@github.com:PennyLaneAI/jeff-mlir.git
+[submodule "projects/tud_hybrid_quantum"]
+	path = projects/tud_hybrid_quantum
+	url = git@github.com:tud-ccc/hybrid-quantum.git
+[submodule "projects/qiskit"]
+	path = projects/qiskit
+	url = git@github.com:Qiskit/qiskit.git
+[submodule "projects/pennylane"]
+	path = projects/pennylane
+	url = git@github.com:PennyLaneAI/pennylane.git
+[submodule "qe-qasm"]
+	path = qe-qasm
+	url = https://github.com/openqasm/qe-qasm
+[submodule "projects/qe-qasm"]
+	path = projects/qe-qasm
+	url = git@github.com:openqasm/qe-qasm.git
+[submodule "projects/mqss-passes-suite"]
+	path = projects/mqss-passes-suite
+	url = git@github.com:Munich-Quantum-Software-Stack/MQSS-Quantum-Compilation-Suite.git
+[submodule "projects/hugr-mlir"]
+	path = projects/hugr-mlir
+	url = git@github.com:Quantinuum/hugr-mlir.git
+[submodule "projects/hugr"]
+	path = projects/hugr
+	url = git@github.com:Quantinuum/hugr.git
+[submodule "projects/qdk"]
+	path = projects/qdk
+	url = https://github.com/microsoft/qdk
+[submodule "projects/qiskit-qir"]
+	path = projects/qiskit-qir
+	url = https://github.com/microsoft/qiskit-qir
+[submodule "projects/qbraid-qir"]
+	path = projects/qbraid-qir
+	url = https://github.com/qBraid/qbraid-qir
+[submodule "projects/qBraid"]
+	path = projects/qBraid
+	url = https://github.com/qBraid/qBraid
+[submodule "projects/qiree"]
+	path = projects/qiree
+	url = https://github.com/ORNL-QCI/qiree
+[submodule "projects/pyqir"]
+	path = projects/pyqir
+	url = git@github.com:qir-alliance/pyqir.git
+[submodule "paper"]
+	path = paper
+	url = https://git@git.overleaf.com/6a0c6964daa665d12976e9c6
+[submodule "projects/QDMI"]
+	path = projects/QDMI
+	url = git@github.com:Munich-Quantum-Software-Stack/QDMI.git

@@ -1,0 +1,24 @@
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        UID: "${DOCKER_UID:-1000}"
+        GID: "${DOCKER_GID:-1000}"
+    image: qc_analysis
+    logging:
+      driver: "none"
+    volumes:
+      - ..:/qc_analysis
+    network_mode: "host"
+    working_dir: /qc_analysis
+    stdin_open: true
+    tty: true
+
+  repro:
+    image: qc_analysis
+    volumes:
+      - ..:/qc_analysis
+    working_dir: /qc_analysis
+    command: make repro

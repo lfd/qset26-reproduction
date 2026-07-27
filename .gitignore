@@ -1,0 +1,11 @@
+**/__pycache__/
+*.egg-info
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.idea/
+.direnv/
+.venv/
+build/
+docker/.env

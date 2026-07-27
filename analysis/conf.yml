@@ -1,0 +1,17 @@
+selected:
+  - xacc
+  - qcor
+  - cuda-quantum
+  - tket2
+  - qiro
+  - qwerty
+  - qiskit
+  - qiskit-qir
+  - qat
+  - pyqir
+  - qe-compiler
+  - qdk
+  - hugr
+  - pennylane
+  - catalyst
+  - mqt-core
